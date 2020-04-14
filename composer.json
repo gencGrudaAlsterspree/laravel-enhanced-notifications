@@ -1,0 +1,32 @@
+{
+    "name": "wizewiz/laravel-enhanced-notifications",
+    "description": "Enhance Laravels default notifications",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wize-wiz",
+            "email": "wize-wiz@git.wizdom.de"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WizeWiz\\EnhancedNotifications\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WizeWiz\\EnhancedNotifications\\EnhancedNotificationsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
